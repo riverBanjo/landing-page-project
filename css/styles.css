@@ -16,6 +16,7 @@ body{
 
 .row{
     display: flex;
+    flex-direction: row;
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +26,9 @@ body{
     background-color: inherit var(--main-color);
     height: 90vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .light-grey {
@@ -46,8 +49,16 @@ img {
     height: auto;
 }
 
+.col-1{
+    width: 100%;
+}
+
 .col-2{
     width: 50%;
+}
+
+.col-4{
+    width: 25%;
 }
 
 /* Header CSS 
@@ -98,3 +109,33 @@ input[type=button]{
     padding: 7px 30px 7px 30px;
     font-size: 18px;
 }
+
+/* 
+* Card Section 
+*/
+
+.square-img{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 5px solid var(--blue-color);
+    border-radius: 5px;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.center-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 160px;
+}
+
+/*
+* Qoute Section
+*/
