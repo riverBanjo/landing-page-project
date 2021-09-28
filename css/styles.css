@@ -58,6 +58,10 @@ img {
     width: 50%;
 }
 
+.col-3-4ths{
+    width: 75%;
+}
+
 .col-4{
     width: 25%;
 }
@@ -100,7 +104,7 @@ nav li {
     color: var(--secondary-color);
 }
 
-input[type=button]{
+.button{
     background-color: var(--blue-color);
     color: var(--main-color);
     border: 0px;
@@ -147,4 +151,47 @@ input[type=button]{
 
 .author{
     float: right;
+}
+
+/*
+* Call to Action Section
+*/
+
+.cta{
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.cta-button{
+    background-color: var(--blue-color);
+    color: var(--main-color);
+    border-radius: 5px;
+    padding: 7px 30px 7px 30px;
+    border: 2px solid var(--main-color);
+}
+
+.cta-main{
+    color: var(--main-color);
+}
+
+.cta-secondary{
+    color: var(--secondary-color);
+}
+
+.center-vertical{
+    display: flex;
+    align-items: center;
+}
+
+/*
+* Footer
+*/
+footer{
+    background-color: var(--dark-color);
+    color: var(--secondary-color);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
