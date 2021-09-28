@@ -3,6 +3,7 @@
     --dark-color: #1F2937;
     --main-color: #F9FAF8;
     --secondary-color: #E5E7EB;
+    --blue-color: #3882F6;
 }
 
 
@@ -15,10 +16,16 @@ body{
 
 .row{
     display: flex;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section{
-    background-color: var(--main-color);
+    background-color: inherit var(--main-color);
+    height: 90vh;
+    display: flex;
+    align-items: center;
 }
 
 .light-grey {
@@ -34,19 +41,21 @@ a, a:visited{
     color: var(--secondary-color);
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+.col-2{
+    width: 50%;
+}
+
 /* Header CSS 
 *  --> Nav CSS
-*  --> Small Splash section
 */
 
 header{
     background-color: var(--dark-color);
-}
-
-nav {
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .logo{
@@ -65,3 +74,7 @@ nav li {
     padding: 5px;
     font-size: 18px;
 }
+
+/* Header CSS
+*  --> Small Splash section
+*/
